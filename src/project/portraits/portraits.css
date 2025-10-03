@@ -1,0 +1,98 @@
+
+
+.portraits-main{
+
+    .portraits-banner{
+        width: 99vw;
+        height: 110vh;
+        /* position: fixed; */
+        background:url(./images/banner5.jpg);
+        background-position: start;
+        background-size: cover;
+
+          h1{
+                letter-spacing: 5px;
+                color: #ecf39e;
+                /* color: #fff; */
+                font-weight: 600;
+                font-family: "Bonheur Royale", cursive;
+                font-size: 5rem;
+                /* opacity: .8; */
+            }
+        p{
+                /* color: white; */
+                color: #ecf39e;
+                font-size: 1.2rem;
+                /* letter-spacing: 2px; */
+                font-family: "Lexend Mega", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+            }
+
+        input{
+            border: none;
+            outline: none;
+            background-color: #ffffff;
+            box-shadow:0px 0px 3px #060b26;
+            border-radius: 10px;
+            color: #000000;
+            font-weight: 600;
+            }
+            input::placeholder{
+                color: #fff;
+            }
+
+            input::-webkit-file-upload-button{
+                background-color: #ecf39e;
+                border: 1px solid #ecf39e;
+            box-shadow:0px 0px 3px #060b26;
+                color: rgb(0, 0, 0);
+                border: none;
+                border-radius: 10px;
+                font-weight: 600;
+                padding: 10px 15px;
+            }
+
+             button{
+                position: relative;
+                width: 8vw;
+                height: 4vh;
+                border: .5px solid #ecf39e;
+                color: #ecf39e;
+                font-weight: 600;
+                font-size: 14px;
+                background-color: rgba(255, 255, 255, 0);
+                transition: .1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+                cursor: pointer;
+                z-index: 1;
+            }
+            button:hover{
+                background-color: #ecf39e;
+                color: rgb(0, 0, 0);
+            }
+
+
+    }
+}
+
+.gallery-main{
+
+    .gallery-body{
+        .img-container img{
+            width: 100%;
+            height: fit-content;
+        }
+    }
+}
+
+@media (max-width:700px) {
+    .portraits-main{
+
+        .portraits-banner{
+            button{
+                width: 15vw;
+            }
+        }
+
+    }
+}
