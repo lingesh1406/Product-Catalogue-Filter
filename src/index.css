@@ -3,3 +3,18 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+*{
+    scroll-behavior: smooth;
+    scroll-padding-top: 0px;
+    transition: .45s ease-in-out;
+  }
+
+  .home-icon{
+    a{
+      background-color: white;
+      box-shadow: 0 0 3px black;
+      text-decoration: none;
+      color: #14213D;
+      border-radius: 10px;
+    }
+  }

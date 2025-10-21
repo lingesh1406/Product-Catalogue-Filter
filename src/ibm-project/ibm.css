@@ -1,0 +1,27 @@
+.product-card {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.overlay-buttons {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .overlay-buttons {
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 180px !important;
+  }
+
+  select.form-select,
+  input.form-control {
+    width: 100% !important;
+  }
+}
