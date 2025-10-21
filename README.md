@@ -10,3 +10,24 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+# 🛒 Product Catalog Filter
+
+A responsive e-commerce catalog built with React, Vite, and Bootstrap that fetches live products from FakeStore API and supports multiple filters.
+
+## 🚀 Features
+- Live product data (FakeStore API)
+- Category, price, rating, and search filters
+- Responsive UI (Bootstrap)
+- Fast builds (Vite)
+- Hosted live on Netlify/Vercel
+
+## 🧰 Tech Stack
+React.js | Bootstrap 5 | Axios | Vite | FakeStore API
+
+## ⚙️ Setup
+1. Clone repo  
+   ```bash
+   git clone https://github.com/username/product-catalog-filter.git
+   cd product-catalog-filter
